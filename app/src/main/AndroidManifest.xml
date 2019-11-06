@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".aty.KotlinActivity"/>
+        <activity android:name=".aty.KotlinBaseOperator" />
     </application>
 
 </manifest>

@@ -14,9 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initView()
-        tv_show_main.setOnClickListener(View.OnClickListener {
-            jump(tv_show_main)
-        })
+        tv_show_main.setOnClickListener(
+                View.OnClickListener {
+                    jump(tv_show_main)
+                }
+        )
     }
 
     private fun initView() {

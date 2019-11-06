@@ -212,7 +212,7 @@ object Utils {
     /**
      * 时间毫秒转为时间格式
      */
-    fun timeMillis2String(time: String, pattern: String): String {
+    fun timeMillis2Str(time: String, pattern: String): String {
         val timeMillis: Long = time?.toLong()
         return timeMillis2Str(timeMillis, pattern)
     }
