@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.guc.kotlintest.aty.KotlinActivity
+import com.guc.kotlintest.bean.Customer
 import com.guc.kotlintest.bean.User
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -23,7 +24,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun initView() {
         val user = User("guc")
-        tv_show_main.setText(user.toString())
+        val customer = Customer("谷超")
+        tv_show_main.setText(user.toString() + "\n" + customer.name)
     }
 
     fun jump(view: View) {
